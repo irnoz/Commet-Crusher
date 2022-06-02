@@ -50,6 +50,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         self.physicsWorld.contactDelegate = self
         
         // TODO: fix scorelable not visible
+        // waja waja
         scoreLabel = SKLabelNode(text: "Score: 0")
 //        scoreLabel.position = CGPoint(x: 0, y: self.frame.height - 20)
         scoreLabel.position = CGPoint(x:500, y:200)
