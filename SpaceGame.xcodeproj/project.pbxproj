@@ -15,6 +15,12 @@
 		A81B0F04282E6749003405F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A81B0F02282E6749003405F0 /* Main.storyboard */; };
 		A81B0F06282E674B003405F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A81B0F05282E674B003405F0 /* Assets.xcassets */; };
 		A81B0F09282E674B003405F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A81B0F07282E674B003405F0 /* LaunchScreen.storyboard */; };
+		A81B0F11282E708E003405F0 /* explosion.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A81B0F0F282E708E003405F0 /* explosion.mp3 */; };
+		A81B0F12282E708E003405F0 /* torpedo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A81B0F10282E708E003405F0 /* torpedo.mp3 */; };
+		A81B0F14282E7103003405F0 /* MyParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = A81B0F13282E7103003405F0 /* MyParticle.sks */; };
+		A81B0F17282E71E4003405F0 /* Starfield.sks in Resources */ = {isa = PBXBuildFile; fileRef = A81B0F15282E71E4003405F0 /* Starfield.sks */; };
+		A81B0F18282E71E4003405F0 /* Explosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = A81B0F16282E71E4003405F0 /* Explosion.sks */; };
+		A81B0F1A282E727E003405F0 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = A81B0F19282E727E003405F0 /* spark.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +33,12 @@
 		A81B0F03282E6749003405F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A81B0F05282E674B003405F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A81B0F08282E674B003405F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A81B0F0F282E708E003405F0 /* explosion.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = explosion.mp3; sourceTree = "<group>"; };
+		A81B0F10282E708E003405F0 /* torpedo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = torpedo.mp3; sourceTree = "<group>"; };
+		A81B0F13282E7103003405F0 /* MyParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MyParticle.sks; sourceTree = "<group>"; };
+		A81B0F15282E71E4003405F0 /* Starfield.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Starfield.sks; sourceTree = "<group>"; };
+		A81B0F16282E71E4003405F0 /* Explosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Explosion.sks; sourceTree = "<group>"; };
+		A81B0F19282E727E003405F0 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,8 +74,14 @@
 				A81B0EF8282E6749003405F0 /* AppDelegate.swift */,
 				A81B0EFA282E6749003405F0 /* GameScene.sks */,
 				A81B0EFC282E6749003405F0 /* Actions.sks */,
+				A81B0F13282E7103003405F0 /* MyParticle.sks */,
 				A81B0EFE282E6749003405F0 /* GameScene.swift */,
 				A81B0F00282E6749003405F0 /* GameViewController.swift */,
+				A81B0F19282E727E003405F0 /* spark.png */,
+				A81B0F16282E71E4003405F0 /* Explosion.sks */,
+				A81B0F15282E71E4003405F0 /* Starfield.sks */,
+				A81B0F0F282E708E003405F0 /* explosion.mp3 */,
+				A81B0F10282E708E003405F0 /* torpedo.mp3 */,
 				A81B0F02282E6749003405F0 /* Main.storyboard */,
 				A81B0F05282E674B003405F0 /* Assets.xcassets */,
 				A81B0F07282E674B003405F0 /* LaunchScreen.storyboard */,
@@ -129,11 +147,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A81B0F1A282E727E003405F0 /* spark.png in Resources */,
+				A81B0F12282E708E003405F0 /* torpedo.mp3 in Resources */,
+				A81B0F11282E708E003405F0 /* explosion.mp3 in Resources */,
 				A81B0F04282E6749003405F0 /* Main.storyboard in Resources */,
 				A81B0EFB282E6749003405F0 /* GameScene.sks in Resources */,
 				A81B0F06282E674B003405F0 /* Assets.xcassets in Resources */,
 				A81B0F09282E674B003405F0 /* LaunchScreen.storyboard in Resources */,
+				A81B0F17282E71E4003405F0 /* Starfield.sks in Resources */,
+				A81B0F18282E71E4003405F0 /* Explosion.sks in Resources */,
 				A81B0EFD282E6749003405F0 /* Actions.sks in Resources */,
+				A81B0F14282E7103003405F0 /* MyParticle.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
